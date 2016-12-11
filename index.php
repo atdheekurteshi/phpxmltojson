@@ -1,12 +1,5 @@
 <?php
 
-/*** References ***
- *
- *https://www.phpmanual.com/
- *https://www.google.com
- *
- */ 
-
 /**
  *$handel variable the opens the json file
  *$url variable that loads the xml file.
