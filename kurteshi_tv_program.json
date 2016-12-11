@@ -1,0 +1,184 @@
+{
+    "orf": {
+        "categories": {
+            "category": [
+                {
+                    "ca_id": "ca1",
+                    "c_name": "information"
+                },
+                {
+                    "ca_id": "ca2",
+                    "c_name": "magazin"
+                },
+                {
+                    "ca_id": "ca3",
+                    "c_name": "doku"
+                },
+                {
+                    "ca_id": "ca4",
+                    "c_name": "kultur"
+                },
+                {
+                    "ca_id": "ca5",
+                    "c_name": "kinder"
+                },
+                {
+                    "ca_id": "ca6",
+                    "c_name": "serie"
+                },
+                {
+                    "ca_id": "ca7",
+                    "c_name": "film"
+                }
+            ]
+        },
+        "channels": {
+            "channel": [
+                {
+                    "c_id": "ORF eins",
+                    "lang_id": "de_01",
+                    "display-show": "magazin"
+                },
+                {
+                    "c_id": "\"ORF 2",
+                    "lang_id": "de_01",
+                    "display-show": "information"
+                },
+                {
+                    "c_id": "ORF III Kultur und Information",
+                    "lang_id": "de_01",
+                    "display-show": "doku"
+                },
+                {
+                    "c_id": "ORF Sport",
+                    "lang_id": "de_01",
+                    "display-show": "sport"
+                },
+                {
+                    "c_id": "ORF Film",
+                    "lang_id": "de_01",
+                    "display-show": "film"
+                },
+                {
+                    "c_id": "ORF Film",
+                    "lang_id": "de_01",
+                    "display-show": "film"
+                }
+            ]
+        },
+        "times": {
+            "time": [
+                {
+                    "tim_id": "VO",
+                    "time_name": "vormitag"
+                },
+                {
+                    "tim_id": "NA",
+                    "time_name": "nachmitag"
+                },
+                {
+                    "tim_id": "VOR",
+                    "time_name": "vorabend"
+                },
+                {
+                    "tim_id": "PRI",
+                    "time_name": "primetime"
+                },
+                {
+                    "tim_id": "NA",
+                    "time_name": "nacht"
+                }
+            ]
+        },
+        "genders": {
+            "gender": [
+                {
+                    "ge_id": "UN",
+                    "g_name": "unterhaltung"
+                },
+                {
+                    "ge_id": "ZE",
+                    "g_name": "zeichentrick"
+                },
+                {
+                    "ge_id": "KI",
+                    "g_name": "krimi"
+                }
+            ]
+        },
+        "languages": {
+            "language": [
+                {
+                    "lang_id": "en_01",
+                    "l_name": "en"
+                },
+                {
+                    "lang_id": "de_01",
+                    "l_name": "de"
+                }
+            ]
+        },
+        "audios": {
+            "audio": [
+                {
+                    "a_id": "A01",
+                    "a_type": "stereo"
+                },
+                {
+                    "a_id": "A02",
+                    "a_type": "stereo-2"
+                }
+            ]
+        },
+        "videos": {
+            "video": [
+                {
+                    "v_id": "V01",
+                    "v_aspect": "16:9"
+                },
+                {
+                    "v_id": "V02",
+                    "v_aspect": "4:3"
+                }
+            ]
+        },
+        "programmes": {
+            "programme": [
+                {
+                    "c_id": "ORF 1",
+                    "tim_id": "PRI",
+                    "ge_id": "ZE",
+                    "lang_id": "en_01",
+                    "title": "Lilyhammer 1",
+                    "credits": {
+                        "director": "A.Dir",
+                        "actor": "Antoni.L"
+                    },
+                    "a_id": "A01",
+                    "v_id": "V01",
+                    "date": "01.12.2016",
+                    "rating": {
+                        "value": "VPS"
+                    }
+                },
+                {
+                    "c_id": "ORF 2",
+                    "tim_id": "PRI",
+                    "ge_id": "UN",
+                    "lang_id": "en_01",
+                    "title": "Lilyhammer s2",
+                    "credits": {
+                        "director": "B.Dir",
+                        "actor": "Johan.P"
+                    },
+                    "a_id": "A01",
+                    "v_id": "V01",
+                    "date": "24.12.2016",
+                    "rating": {
+                        "value": "VPS"
+                    }
+                }
+            ]
+        }
+    }
+}
